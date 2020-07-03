@@ -1,17 +1,16 @@
 ---
 title: Arya Jemal for City Council
+layout: home
 ---
 
-![Arya Jemal](assets/images/arya-1.jpg)
-
-# Arya Jemal for City Council
-
+<div>
 As a Mission Viejo native, Arya Jemal is no stranger to the issues
 facing residents.
 
 As a lifetime resident of Mission Viejo, I understand the issues central to all of us: proper city response to covid-19, job creation, transportation, education, and environmental
 
 As your city councilmember, I commit to serving those in our community who have been previously voices have been previously unheard.
+</div>
 
 ## About
 
@@ -73,11 +72,11 @@ Issues
 ### Vacant Space as Community Space
   - MV has a lot of vacant space we can turn into community space, esp space that can be used for people during coronavirus in socially distant ways → reservations
   - Utilize the community space we already have - nadadores, marguerite and felipe tennis center, offer more subsidized community programs
-# Affordable housing - mission viejo housing authority
+### Affordable housing - mission viejo housing authority
   - Lack of affordable housing, more of it and less development
   - Rent control
   - Reduction in property taxes (????)
-# Environmental Protection
+### Environmental Protection
   - Upkeep of already existing green spaces
   - Creation of new green space
   - Cleanup of bad green spaces - the lake
@@ -88,3 +87,4 @@ Issues
   - Solar power
 
 ![Arya Jemal](assets/images/arya-2.jpg)
+![Arya Jemal](assets/images/arya-3.jpg)
