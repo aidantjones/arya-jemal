@@ -9,20 +9,81 @@
   <body>
     <section class="hero">
       <div class="hero-image">
-        <img src="assets/images/arya-1.jpg" alt="Arya Jemal">
+        <img src="assets/images/postcards/postcard-1.png" alt="Postcard #1">
       </div>
       <div class="hero-text">
         <h1>
-          Arya <br>
-          Jemal
-          <div>for</div>
-          City <br>
-          Council
+          Buy<br>
+          Some<br>
+          Cards!
         </h1>
       </div>
     </section>
     <main>
       {{content}}
+      <section class="postcards">
+        <div>
+          <h2>#1</h2>
+          <img src="assets/images/postcards/postcard-1.png" alt="Postcard #1" loading="lazy">
+        </div>
+        <div>
+          <h2>#2</h2>
+          <img src="assets/images/postcards/postcard-2.png" alt="Postcard #2" loading="lazy">
+        </div>
+        <div>
+          <h2>#3</h2>
+          <img src="assets/images/postcards/postcard-3.png" alt="Postcard #3" loading="lazy">
+        </div>
+        <div>
+          <h2>#4</h2>
+          <img src="assets/images/postcards/postcard-4.png" alt="Postcard #4" loading="lazy">
+        </div>
+        <div>
+          <h2>#5</h2>
+          <img src="assets/images/postcards/postcard-5.png" alt="Postcard #5" loading="lazy">
+        </div>
+        <div>
+          <h2>#6</h2>
+          <img src="assets/images/postcards/postcard-6.png" alt="Postcard #6" loading="lazy">
+        </div>
+
+      </section>
+      <form name="donate" netlify>
+        <div class="personal-info">
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Name"><br>
+          <label for="address">Address</label>
+          <input type="text" name="address" placeholder="Address"><br>
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Email"><br>
+          <label for="venmo">Venmo Handle</label>
+          <input type="text" name="venmo" placeholder="Venmo Handle"><br>
+        </div>
+
+        <p>Choose the amount of each type you would like. Each postcard is <strong>$10.</strong></p>
+
+        <div class="form-postcards">
+          <label for="1">#1</label>
+          <input type="number" name="1" value="0"><br>
+          <label for="2">#2</label>
+          <input type="number" name="2" value="0"><br>
+          <label for="3">#3</label>
+          <input type="number" name="3" value="0"><br>
+          <label for="4">#4</label>
+          <input type="number" name="4" value="0"><br>
+          <label for="5">#5</label>
+          <input type="number" name="5" value="0"><br>
+          <label for="6">#6</label>
+          <input type="number" name="6" value="0">
+        </div>
+
+        <p>
+          You will be notified by email when your postcard is sent. Thank you for your donation!
+        </p>
+
+        <button type="submit" name="button">Submit</button>
+
+      </form>
     </main>
   </body>
 </html>
