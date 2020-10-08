@@ -87,3 +87,42 @@ main img:first-of-type {
   margin-top: 2rem;
   margin-bottom: 0;
 }
+
+.personal-info label {
+  display: none;
+}
+
+.form-postcards label {
+  font-family: heebo;
+  font-size: 1rem;
+}
+
+form .personal-info input {
+  width: 90%;
+  line-height: 2rem;
+  border: 1px solid black;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form button {
+  width: 100%;
+  background-color: var(--blue);
+  color: white;
+  font-family: bebas;
+  font-size: 2rem;
+  border: 2px solid var(--blue);
+}
+
+form button:hover {
+  transition: 0.2s;
+  background-color: white;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.form-postcards input {
+  width: 2rem;
+}
