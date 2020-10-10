@@ -44,6 +44,7 @@
       <p><strong>Please send in your donation to @arya-jemal <em>before</em> submtting this form</strong></p>
 
       <form name="donate" netlify>
+        <input type="hidden" name="form-name" value="donate">
         <div class="personal-info">
           <label for="name">Name</label>
           <input type="text" name="name" placeholder="Name"><br>
@@ -52,7 +53,7 @@
           <label for="city">City</label>
           <input type="text" name="city" placeholder="City"><br>
           <label for="city">State</label>
-          <select>
+          <select name="city">
           	<option value="AL">Alabama</option>
           	<option value="AK">Alaska</option>
           	<option value="AZ">Arizona</option>
@@ -108,7 +109,7 @@
           </select>
           <br>
           <label for="country">Country</label>
-          <select id="country" name="country" class="form-control">
+          <select id="country" name="country">
             <option value="Afghanistan">Afghanistan</option>
             <option value="Åland Islands">Åland Islands</option>
             <option value="Albania">Albania</option>
