@@ -77,7 +77,7 @@ main h2 {
   margin-bottom: 1rem;
 }
 
-main div {
+main .postcards div {
   font-family: bebas;
   font-size: 2rem;
   margin-bottom: 4rem;
@@ -97,8 +97,12 @@ main img:first-of-type {
   font-size: 1rem;
 }
 
+[name="donate"] {
+  margin-top: 2rem;
+}
+
 form .personal-info input {
-  width: 90%;
+  width: 100%;
   line-height: 2rem;
   border: 1px solid black;
 }
@@ -123,6 +127,23 @@ form button:hover {
   cursor: pointer;
 }
 
+.form-postcards {
+  margin: 2rem 0 3rem 0;
+}
+
 .form-postcards input {
   width: 2rem;
+  margin-left: auto;
+}
+
+.form-postcards > div {
+  display: flex;
+}
+
+.personal-info * + * {
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  margin-top: 2rem;
 }
