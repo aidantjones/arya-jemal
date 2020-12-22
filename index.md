@@ -3,6 +3,6 @@ title: Buy Some Cards!
 layout: home
 ---
 
-Buy some cards for Artsakh. All proceeds will be donated to the [All Armenia Fund](https://www.armeniafund.org/). The starting price for each card is $10 USD, but bigger donations are greatly appreciated!
+Buy some cards for Artsakh. All proceeds will be donated to the [Kooyrigs](https://kooyrigs.org/). The starting price for each card is $10 USD, but bigger donations are greatly appreciated! I'm matching donations from Monday, December 21 through Saturday, December 26.
 
-Venmo your payment to **\@arya-jemal.** You will receive an email confirmation once your donation has been processed.
+Send a screenshot as proof of your donation to my [Instagram](https://www.instagram.com/aryajemal/) or [email](jemala547@gmail.com).
